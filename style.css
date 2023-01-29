@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Manrope:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+  background-image: url(./img/citybg2.jpg);
+  background-size: cover;
+  font-family: 'Manrope', sans-serif;
+}
+.container {
+  /* background-color: antiquewhite; */
+  /* height: 70%; */
+  margin-bottom: 90px;
+}
+.mainCont {
+  margin: 25vh 40vw;
+  padding: 20px;
+  height: 50vh;
+  min-height: 450px;
+  width: 20vw;
+  border-radius: 10px;
+  /* background-color: aliceblue; */
+  background-color: rgba(220, 220, 220, 0.8);
+}
+button {
+  background-color: #bfb3a8 !important;
+  color: black !important;
+}
+.city {
+  font-size: 40px;
+  font-family: 'Aboreto', cursive;
+}
+.date,
+.temp,
+.feels-like,
+.description,
+.mainCont {
+  font-size: 20px;
+}
+.main {
+  line-height: 50px;
+}
